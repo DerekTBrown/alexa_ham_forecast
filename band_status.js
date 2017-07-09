@@ -117,7 +117,7 @@ exports.getBandReportJSON = function(){
 
        // Check Updated is Valid Date
        if(isNaN(Date.parse(root.updated[0]))){
-         reject();
+         reject("Invalid Date.");
        } else {
          var output = {
            "updated" : Date.parse(root.updated[0]),
@@ -129,7 +129,9 @@ exports.getBandReportJSON = function(){
 
          _.each(root.calculatedconditions[0].band, function(band){
            output['band_status'][band['$']['time']][band['$']['name']] = band['_'];
-         })
+         });
+
+         resolve(output);
        }
      })
    })

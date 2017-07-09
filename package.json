@@ -4,6 +4,7 @@
   "description": "Alexa Skill for HAM Band Forecast",
   "main": "src/index.js",
   "scripts": {
+    "build": "rm -rf node_modules ./build && mkdir ./build && npm install --production && zip -r ./build/alexa_ham_forecast.zip . -x ./build -x \\*.git\\*",
     "start": "node .",
     "test": "$(npm bin)/mocha"
   },

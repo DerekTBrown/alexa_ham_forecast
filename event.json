@@ -1,2 +1,24 @@
 {
+  "session": {
+    "sessionId": "SessionId.23f84513-786c-4473-9943-6ea854a2f883",
+    "application": {
+      "applicationId": "amzn1.ask.skill.97b4c4f3-d9af-4d76-ae66-ab1fc0e5e0d1"
+    },
+    "attributes": {},
+    "user": {
+      "userId": "amzn1.ask.account.AEFZDYNIIFH6XJRTHLT2BM2SDYDLUGGKKXGR7Q3CGWXV37IISRVFZ5WDHKAEBFQ3DG2SLYPRYKYOUWWKKXBR5IR5JWTTKPAOBW3DTVAN3LOESGOOGPZC3OWFLPFQVBJDR2PWMLD4KSNLKGIXWEMSR6NRVL2XLJINVH646Z6GF7N6TYDL2SJN3M66ZUV7KUSR6F4JLNM2GH3M3CY"
+    },
+    "new": true
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.020a6ed9-6c39-4603-b48c-57fa884b329c",
+    "locale": "en-US",
+    "timestamp": "2017-07-09T10:25:38Z",
+    "intent": {
+      "name": "bandReport",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
 }
