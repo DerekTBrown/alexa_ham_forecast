@@ -12,7 +12,7 @@
  var expect = chai.expect;    // Using Expect style
  var should = chai.should();  // Using Should style
 
- var band_status = require('../src/band_status');
+ var band_status = require('../band_status');
 
  describe('HamQSL API', function(){
    it('Should Fetch Band Reports', function(){
